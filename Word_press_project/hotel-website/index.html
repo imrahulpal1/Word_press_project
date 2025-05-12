@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotel Paradise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hotel Paradise</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#booking">Booking</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <img src="https://img.freepik.com/free-photo/type-entertainment-complex-popular-resort-with-pools-water-parks-turkey-with-more-than-5-million-visitors-year-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer_146671-18728.jpg?semt=ais_hybrid&w=740" alt="Hotel view" />
+    <div class="hero-text">
+      <h2>Welcome to Hotel Paradise</h2>
+      <p>Your luxurious getaway awaits.</p>
+    </div>
+  </section>
+
+  <section id="rooms" class="rooms">
+    <h2>Our Rooms</h2>
+    <div class="room-card">
+      <img src="https://www.shutterstock.com/image-photo/hotel-room-interior-modern-seaside-600nw-1387008533.jpg" alt="Deluxe Room" />
+      <h3>Deluxe Room</h3>
+      <p>King-size bed, sea view, free breakfast</p>
+    </div>
+    <div class="room-card">
+      <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/176113777.jpg?k=982b8710d50b0e5b6e2db2b275928784748b993a039a1c3b1257e58b19a235fc&o=&hp=1" alt="Standard Room" />
+      <h3>Standard Room</h3>
+      <p>Queen-size bed, city view</p>
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Book a Room</h2>
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="date" id="checkin" required />
+      <input type="date" id="checkout" required />
+      <button type="submit">Book Now</button>
+    </form>
+    <p id="confirmationMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hotel Paradise</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
